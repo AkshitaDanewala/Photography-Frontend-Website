@@ -1,0 +1,681 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.pg1{
+    height: 100vh;
+    width: 100%;
+      background-color: rgb(5,29,32);
+    background-image: url("https://media.istockphoto.com/id/1083795944/photo/hooded-photographer-behind-dslr-camera.webp?s=170667a&w=0&k=20&c=hpphQtSOgrGNv6iZbjW5RpMOni9W1fGDSYQYp_7uGNA=");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 0 1vmax;
+    
+}
+ul{
+    display: flex;
+}
+ul li{
+list-style: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.4vmax;
+margin: 0 0.7vmax;
+color: white;
+}
+.logoname{
+    height: 8vh;
+    width: 20vw;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7vmax;
+}
+.logoname >h1{
+    font-size: 2.4vmax;
+    font-family: "satisfy";
+    color: white;
+}
+
+
+nav >button{
+    padding: 0.7vmax 1vmax;
+    border: none;
+    border-radius: 0.5vmax;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+margin-left: 25vmax;
+color: white;
+}
+
+.pg1-content{
+    height: 50vh;
+    width: 50vw;
+    /* border: 2px solid white; */
+    margin-top: 11vmax;
+    margin-left: 5vmax;
+    /* padding: 1vmax 1vmax; */
+}
+.pg1-content >h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8vmax;
+    color: white;
+}
+.pg1-content >p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    margin-top: 1vmax;
+    font-size: 1.2vmax;
+   
+}
+.pg1-content >button{
+    padding: 0.7vmax 1vmax;
+    border: none;
+    background-color: white;
+    border-radius: 0.5vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    margin-top: 2vmax;
+    margin-left: 18vmax;
+    font-weight: bold;
+}
+
+/* ---------------------------pg1 end-------------------------------------------- */
+
+
+.pg2{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url("https://media.istockphoto.com/id/511934246/photo/photographer-taking-pictures-on-the-beach.jpg?s=612x612&w=0&k=20&c=Wefwv29XmqrvSjWpWCtrSxTVft5vxQKKgTNNzVh2WRc="); */
+    /* background-color: rgb(218, 255, 251); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pg2-left{
+    height: 100%;
+    width: 50%;
+    /* background-image: url("https://media.istockphoto.com/id/628389482/photo/dslr-camera.jpg?s=612x612&w=0&k=20&c=K2z-V7ohkxjuDc3DN2bwpjyZFzS9-nobbnOG4EVmKuM=");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat; */
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 2vmax;
+}
+.pg2-left >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+    text-align: center;
+}
+.pg2-right{
+height: 100%;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: end;
+padding: 0 8vmax;
+}
+.pg2-content{
+    height: 53vh;
+    width: 33vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 1vmax;
+}
+.pg2-content >h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vmax;
+    color: white;
+
+}
+.pg2-content >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    color: coral;
+ 
+}
+.pg2-content >button{
+    padding: 0.7vmax 1vmax;
+    border: none;
+    background-color: white;
+    border-radius: 0.5vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+   font-weight: bold;
+}
+
+/* -----------------------------pg2 end--------------------------------------- */
+
+.pg3{
+    height: 100vh;
+    width: 100%;
+      /* background-color: rgb(23, 107, 135); */
+      /* background-color: rgb(5,29,32); */
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+}
+.pg3-heading{
+    height: 25vh;
+    /* width: 35vw; */
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1vmax;
+}
+
+.pg3-heading >h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6vmax;
+    color: white;
+
+}
+
+.pg3-heading >h1{
+    font-size: 2.5vmax;
+}
+
+.pg3-heading >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    text-align: center;
+    color: white;
+    width: 30vw;
+
+}
+
+.services{
+    height: 72vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 0.4vmax 0;
+}
+
+.wedding, .fashion, .travel, .kids{
+    height: 60vh;
+    width: 23vw;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wedding-top{
+    height: 47vh;
+    width: 100%;
+    /* border: 2px solid black; */
+border-radius: 10vmax;
+overflow: hidden;
+}
+.wedding-top >img{
+    height: 100%;
+    width: 100%;
+border-radius: 10vmax;
+object-fit: cover;
+object-position: top;
+transition: all ease 1s;
+
+}
+.wedding-top >img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.wedding-bottom{
+    height: 9vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.wedding-bottom >h1{
+    font-family: "satisfy";
+    font-size: 2.3vmax;
+}
+
+.fashion-top{
+    height: 47vh;
+    width: 100%;
+    /* border: 2px solid black; */
+border-radius: 10vmax;
+overflow: hidden;
+}
+.fashion-top >img{
+    height: 100%;
+    width: 100%;
+border-radius: 10vmax;
+object-fit: cover;
+transition: all ease 1s;
+
+}
+.fashion-top >img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.fashion-bottom{
+    height: 9vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+
+}
+.fashion-bottom >h1{
+    font-family: "satisfy";
+    font-size: 2.3vmax;
+}
+
+.travel-top{
+    height: 47vh;
+    width: 100%;
+    /* border: 2px solid black; */
+border-radius: 10vmax;
+overflow: hidden;
+}
+.travel-top >img{
+    height: 100%;
+    width: 100%;
+border-radius: 10vmax;
+object-fit: cover;
+transition: all ease 1s;
+
+}
+.travel-top >img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.travel-bottom{
+    height: 9vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.travel-bottom >h1{
+    font-family: "satisfy";
+    font-size: 2.3vmax;
+}
+
+
+.kids-top{
+    height: 47vh;
+    width: 100%;
+    /* border: 2px solid black; */
+border-radius: 10vmax;
+overflow: hidden;
+}
+.kids-top >img{
+    height: 100%;
+    width: 100%;
+border-radius: 10vmax;
+object-fit: cover;
+transition: all ease 1s;
+
+}
+.kids-top >img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.kids-bottom{
+    height: 9vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.kids-bottom >h1{
+    font-family: "satisfy";
+    font-size: 2.3vmax;
+}
+.services >button{
+   position: absolute;
+   top: 87%;
+   padding: 0.6vmax 1.3vmax;
+   border: none;
+   border-radius: 0.5vmax;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.3vmax;
+   background-color: black;
+   color: white;
+
+}
+
+.pg3anotherpg{
+    height: 100vh;
+    width: 100%;
+    background-color:white;
+    position: absolute;
+    z-index: 99;
+    top: -300%;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+.pg3anotherpg-head{
+    height: 10vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.pg3anotherpg-head >h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmax;
+    margin-top: 1vmax;
+}
+.close{
+    font-size: 3vmax;
+    margin-left: 85vmax;
+    margin-top: -3vmax;
+}
+.moreservices{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid black; */
+margin-top: 2vmax;
+display: flex;
+}
+.moreservices-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+}
+.moreservices-left >.imgbox{
+    height: 53vh;
+    width: 30vw;
+    /* border: 2px solid black; */
+    border-radius: 1vmax;
+    background-image: url("https://media.istockphoto.com/id/1415056757/photo/colorful-wedding-tents-at-night.webp?b=1&s=170667a&w=0&k=20&c=ApWOQpmwZRgNAc9ina7XUdb0S25h2gSiuADl8KIyZxM=");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:  0 0 10px grey;
+
+}
+
+.moreservices-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: cyan; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreservices-right >h3{
+    font-size: 2.5vmax;
+    margin-top: 1vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --------------------------pg3 end--------------------------------- */
+
+.pg4{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(100, 204, 197); */
+    /* background-color: rgb(218, 255, 251); */
+
+}
+.pg4-head{
+    height: 15vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-top: 1vmax;
+}
+.pg4-head >h1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2vmax;
+}
+.teambox{
+    height: 70vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.box{
+    height: 60vh;
+    width: 20vw;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 10px white;
+    border-radius: 1vmax;
+    display: flex;
+    align-items: end;
+}
+.box1{
+    background-image: url("https://images.unsplash.com/photo-1585820117003-4d6aafa444ac?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box2{
+    background-image: url("https://images.unsplash.com/photo-1614495039368-525273956716?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    background-image: url("https://images.unsplash.com/photo-1599847022902-f64cc1ae97fd?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box4{
+    background-image: url("https://images.unsplash.com/photo-1519764622345-23439dd774f7?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content1, .content2, .content3, .content4{
+    height: 25vh;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.233);
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1vmax;
+    color: white;
+    border-radius: 1vmax;
+
+    display: none;
+}
+.box1:hover >.content1, .box2:hover >.content2, .box3:hover >.content3, .box4:hover >.content4{
+    display: initial;
+    cursor: pointer;
+}
+.content1 >h2, .content2 >h2, .content3 >h2, .content4 >h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.7vmax;
+margin-top: 0.6vmax;
+margin-left: 4vmax;
+}
+
+.content1 >p, .content2 >p, .content3 >p, .content4 >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vmax;
+    margin-top: 0.6vmax;
+    }
+    .icons{
+        height: 6vh;
+        width: 100%;
+    /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .icons >h5{
+        font-size: 1.5vmax;
+        color: white;
+    margin-top: 0.6vmax;
+
+    }
+
+    /* -----------------------------pg4 end---------------------------------- */
+
+    .pg5{
+        height: 100vh;
+        width: 100%;
+        /* background-color: rgb(218, 255, 251); */
+      /* background-color: rgb(5,29,32); */
+
+        position: relative;
+    }
+    form{
+        height: 65vh;
+        width: 40vw;
+        background-color: rgb(233, 230, 230);
+        padding: 1vmax 3vmax;
+        box-shadow: 0 0 10px grey;
+        position: absolute;
+        top: 16%;
+        left: 15%;
+
+    }
+    form >h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.4vmax;
+    }
+    input{
+        width: 25vw;
+        padding: 0.6vmax 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2vmax;
+        margin-top: 2vmax;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 2px solid black;
+    outline: none;
+    background-color: transparent;
+  
+    }
+    input::placeholder{
+        color: black;
+    }
+    
+    textarea{
+        margin-top: 2vmax;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2vmax;
+        border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 2px solid black;
+    outline: none;
+  text-align: left;
+  background-color: transparent;
+    }
+    textarea::placeholder{
+        color: black;
+    }
+
+    form >button{
+        padding: 0.6vmax 1.2vmax;
+        border: 2px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4vmax;
+        background-color: transparent;
+        margin-top: 2vmax;
+        font-weight: bold;
+    }
+    .info-box{
+        height: 55vh;
+        width: 33vw;
+        background-color: rgb(11, 11, 37);
+        position: absolute;
+        left: 52%;
+        top: 36%;
+        color: white;
+      padding: 0 3vmax;
+    }
+
+    .info-box >.call, .location, .business{
+        height: 12vh;
+        width: 25vw;
+        /* border: 2px solid white; */
+        margin: 2vmax 0;
+    }
+    .info-box >.call >h4, .info-box >.location >h4, .info-box >.business >h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5vmax;
+       
+    }
+
+    .info-box >.call >h4 >i, .info-box >.location >h4 >i, .info-box >.business >h4 >i{
+        color: coral;
+    }
+    .info-box >.call >h5, .info-box >.location >h5, .info-box >.business >h5{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2vmax;
+        color: rgb(185, 184, 184);
+        margin-top: 0.4vmax;
+    }
+    footer{
+        height: 8vh;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 0.5vmax 2vmax;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .copy >h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2vmax;
+    }
+    .copy >h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1vmax;
+        color: grey;
+        margin-top: 0.3vmax;
+    }
+    footer >.icons{
+        height: 8vh;
+        width: 22vw;
+        /* border: 2px solid white; */
+
+    }
+    .icons >h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4vmax;
+    }
+    .icons> img{
+        height: 5vh;
+        width: 2.4vw;
+        border-radius: 5vmax;
+    }
